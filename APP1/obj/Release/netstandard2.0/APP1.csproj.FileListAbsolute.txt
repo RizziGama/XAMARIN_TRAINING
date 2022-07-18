@@ -1,0 +1,15 @@
+/Users/arthurrizzi/Projects/APP1/APP1/bin/Release/netstandard2.0/APP1.deps.json
+/Users/arthurrizzi/Projects/APP1/APP1/bin/Release/netstandard2.0/APP1.dll
+/Users/arthurrizzi/Projects/APP1/APP1/bin/Release/netstandard2.0/ref/APP1.dll
+/Users/arthurrizzi/Projects/APP1/APP1/bin/Release/netstandard2.0/APP1.pdb
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/APP1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/App.xaml.g.cs
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/MainPage.xaml.g.cs
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/APP1.AssemblyInfoInputs.cache
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/APP1.AssemblyInfo.cs
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/APP1.csproj.CoreCompileInputs.cache
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/XamlC.stamp
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/APP1.dll
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/ref/APP1.dll
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/APP1.pdb
+/Users/arthurrizzi/Projects/APP1/APP1/obj/Release/netstandard2.0/APP1.csproj.AssemblyReference.cache

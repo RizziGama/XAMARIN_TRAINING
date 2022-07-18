@@ -1,0 +1,70 @@
+
+=================================================================
+	Native Crash Reporting
+=================================================================
+Got a abrt while executing native code. This usually indicates
+a fatal error in the mono runtime or one of the native libraries 
+used by your application.
+=================================================================
+
+=================================================================
+	Native stacktrace:
+=================================================================
+	0x102ec0935 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_dump_native_crash_info
+	0x102eb540e - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_handle_native_crash
+	0x102ebff6f - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : sigabrt_signal_handler
+	0x11eb1cdfd - /usr/lib/system/libsystem_platform.dylib : _sigtramp
+	0x12b7e7a00 - Unknown
+	0x11ecfc6b7 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/system/libsystem_c.dylib : abort
+	0x1030b8166 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : xamarin_unhandled_exception_handler
+	0x102f6f065 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_invoke_unhandled_exception_hook
+	0x102eb5023 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_handle_exception_internal
+	0x102eb3549 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_handle_exception
+	0x102e35960 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_amd64_throw_exception
+	0x155c315b0 - Unknown
+	0x1030b7dea - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : xamarin_process_managed_exception
+	0x102d7ea29 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : _ZL31native_to_managed_trampoline_11P11objc_objectP13objc_selectorPP11_MonoMethodj
+	0x102dc2519 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : -[UIKit_UIControlEventProxy BridgeSelector]
+	0x13449b9d3 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIApplication sendAction:to:from:forEvent:]
+	0x133d2a354 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIControl sendAction:to:forEvent:]
+	0x133d2a758 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIControl _sendActionsForEvents:withEvent:]
+	0x133d26c3b - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIButton _sendActionsForEvents:withEvent:]
+	0x133d28faf - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIControl touchesEnded:withEvent:]
+	0x1344dcdd6 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIWindow _sendTouchesForEvent:]
+	0x1344dee3a - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIWindow sendEvent:]
+	0x1344b4eac - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIApplication sendEvent:]
+	0x13454cf0a - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : __dispatchPreprocessedEventFromEventQueue
+	0x13455035d - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : __processEventQueue
+	0x134546af5 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : __eventFetcherSourceCallback
+	0x10d17d4a7 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__
+	0x10d17d39f - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopDoSource0
+	0x10d17c86c - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopDoSources0
+	0x10d176f68 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : __CFRunLoopRun
+	0x10d176704 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation : CFRunLoopRunSpecific
+	0x11eea0c8e - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices : GSEventRunModal
+	0x13449565a - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : -[UIApplication _run]
+	0x13449a2b5 - /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore : UIApplicationMain
+	0x15ea5f1d4 - Unknown
+	0x15ea5ed5b - Unknown
+	0x102eca5d5 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_jit_runtime_invoke
+	0x102fe1be8 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_runtime_invoke_checked
+	0x102fe70d5 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_runtime_exec_main_checked
+	0x102e3547c - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : mono_jit_exec
+	0x1030c0a2a - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : xamarin_main
+	0x102e0d1a4 - /Users/arthurrizzi/Library/Developer/CoreSimulator/Devices/59A6B0A9-C603-420B-93DE-2AAB0EC93CCF/data/Containers/Bundle/Application/9AB74B7E-D216-4268-8D5C-C2E6AFC63606/APP1.iOS.app/APP1.iOS : main
+	0x10bec3f21 - Unknown
+	0x2037af51e - Unknown
+	0x3 - Unknown
+
+=================================================================
+	Basic Fault Address Reporting
+=================================================================
+Memory around native instruction pointer (0x11eec600e):0x11eec5ffe  ff ff c3 90 90 90 b8 48 01 00 02 49 89 ca 0f 05  .......H...I....
+0x11eec600e  73 08 48 89 c7 e9 ad a1 ff ff c3 90 90 90 b8 53  s.H............S
+0x11eec601e  00 00 02 49 89 ca 0f 05 73 08 48 89 c7 e9 95 a1  ...I....s.H.....
+0x11eec602e  ff ff c3 90 90 90 b8 83 01 00 02 49 89 ca 0f 05  ...........I....
+
+=================================================================
+	Managed Stacktrace:
+=================================================================
+=================================================================
